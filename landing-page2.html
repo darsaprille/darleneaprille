@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEN - Fashion Ave</title>
+    <style>
+        body {
+            font-family: 'Dancing Script', cursive;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        button {
+            font-size: 14px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .exit-button {
+            position: fixed; /* Fix the button to the lower right corner */
+            bottom: 20px; /* Adjust vertical position */
+            right: 20px; /* Adjust horizontal position */
+            padding: 10px 20px;
+            background-color: #cec4b7a8; /* Red background color */
+            color: rgb(48, 45, 45); /* White text */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor */
+        }
+
+        .exit-button:hover {
+            background-color: #94726241; /* Darker red on hover */
+        }
+
+        .album {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            width: 90%;
+            margin-top: 30px;
+        }
+
+        .album img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Add some responsiveness */
+        @media (max-width: 600px) {
+            .album {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>CHOOSE YOUR STYLE</h1>
+    <p>Have a unique and elegant style everyday.</p>
+    
+    <div class="album">
+        <img src="men out 1.jpg" alt="Collection Image 1">
+        <img src="met out 2.jpg" alt="Collection Image 2">
+        <img src="men out 3.jpg" alt="Collection Image 3">
+        <img src="men out 4.jpg" alt="Collection Image 4">
+        <img src="outmen.jpg" alt="Collection Image 5">
+    </div>
+
+    <!-- Exit Button -->
+    <button class="exit-button" onclick="window.location.href='fas.index.html';">X</button>
+</body>
+</html>

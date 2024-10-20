@@ -1,0 +1,214 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfdada;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    width: 80px;
+    height: auto;
+  
+}
+
+/* Background styling */
+
+
+
+main {
+    flex: 1;
+}
+
+/* Text readability over background */
+.container h1, .container p {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar .nav-link {
+    color: #ffffff; /* White text */
+}
+
+.footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-menu {
+    font-size: 1.5rem; /* Increase font size */
+    display: none; /* Hide menu initially */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show menu on hover */
+}
+.dropdown-item {
+    padding: 10px 20px; /* Increase padding for larger clickable area */
+    text-decoration: none;
+    color: black;
+    display: block; /* Make items block-level for full width */
+}
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Change background on hover */
+}
+
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fallback font */
+    margin: 10; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end; /* Align items to the right */
+    text-align: ri; /* Ensure text is aligned to the right */
+    margin: 10em; /* Margin around the container */
+}
+
+.signature-font {
+    font-family: 'Dancing Script', cursive; /* Signature-like font */
+}
+
+h1 {
+    font-size: 8em; /* Adjust font size for the heading */
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    font-size: 1.2em; /* Adjust font size for the paragraph */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+        .slider {
+            position: relative;
+            max-width: 600px; /* Adjust as needed */
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px; /* Optional: add rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add shadow */
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%; /* Make images responsive */
+            display: block;
+            border-radius: 10px; /* Optional: add rounded corners */
+        }
+
+        button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.5);
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px; /* Optional: rounded buttons */
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.8); /* Change color on hover */
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+        .slideshow-container {
+            max-width: 640px; /* Adjust the width as needed */
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: rgba(0, 0, 0, 0.5);
+            transform: translateY(-50%);
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* landing page */
+
+        
+        .signature-font {
+            font-family: 'Great Vibes', ;
+            font-size: 20px;
+            font-weight: normal;
+            color: beige; /* Beige color */
+            text-align: left; /* Align to the left */
+            margin: 50px; /* Add some margin for positioning */
+        }
+
+        
